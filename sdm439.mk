@@ -121,9 +121,6 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor
 
 PRODUCT_PACKAGES += \
-    Snap
-
-PRODUCT_PACKAGES += \
     libwa_dof
 
 # Display
@@ -261,6 +258,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
+
+# Prebuilts
+PRODUCT_PACKAGES += \
+    gcamgo
 
 # QMI
 PRODUCT_PACKAGES += \
